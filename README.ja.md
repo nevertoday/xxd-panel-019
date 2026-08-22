@@ -135,9 +135,9 @@ xxd-panel-019/
     └── xxd-panel-019-prompt.en.md
 ```
 
-## 謝辞
+## XXD について
 
-多言語ナビゲーションと README の情報設計は、[Gathered Scenes Zine](https://github.com/Zeejay0/gathered-scenes-zine-skill)、[Photo Abstract Editorial](https://github.com/ZzzLc0405/photo-abstract-editorial)、[Awesome GPT Image 2](https://github.com/freestylefly/awesome-gpt-image-2) を参考にしています。019 の視覚システム、モード、実行ルールは独立しています。
+XXD は Xiaoxiaodong のブランド名を略したものです。このプロジェクトは [@xiaoxiaodong01](https://x.com/xiaoxiaodong01) が制作・管理しています。
 
 <div align="center">
 
