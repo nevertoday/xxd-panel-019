@@ -41,6 +41,27 @@ source photo → identify subject and relation → lock identity cues → extrac
 - **Restrained print character:** light halftone, paper, and registration texture support flat hierarchy rather than glossy 3D.
 - **Editorial typography:** title and microcopy participate in geometry, visual weight, and spatial rhythm.
 
+## Samples · from X
+
+> [Xiaoxiaodong (@xiaoxiaodong01)](https://x.com/xiaoxiaodong01/status/2090144142366233008) · 19 August 2026<br>
+> GPT2 × retro × flat × aesthetic prompt × VOL.019<br>
+> The post also demonstrates language preference: naming a target such as Spanish lets the copy transcreate naturally for that audience.
+
+<table>
+  <tr>
+    <td width="50%"><a href="https://x.com/xiaoxiaodong01/status/2090144142366233008"><img src="https://pbs.twimg.com/media/HQGvA3TasAAH3cc.jpg?format=jpg&amp;name=large" alt="XXD Panel 019 sample 1"></a></td>
+    <td width="50%"><a href="https://x.com/xiaoxiaodong01/status/2090144142366233008"><img src="https://pbs.twimg.com/media/HQGvA3RbgAA_3_D.jpg?format=jpg&amp;name=large" alt="XXD Panel 019 sample 2"></a></td>
+  </tr>
+  <tr>
+    <td width="50%"><a href="https://x.com/xiaoxiaodong01/status/2090144142366233008"><img src="https://pbs.twimg.com/media/HQGvA3RbAAAP0Wj.jpg?format=jpg&amp;name=large" alt="XXD Panel 019 sample 3"></a></td>
+    <td width="50%"><a href="https://x.com/xiaoxiaodong01/status/2090144142366233008"><img src="https://pbs.twimg.com/media/HQGvA3aboAAuH6f.jpg?format=jpg&amp;name=large" alt="XXD Panel 019 sample 4"></a></td>
+  </tr>
+</table>
+
+<p align="center"><a href="https://x.com/xiaoxiaodong01/status/2090144142366233008">View the original post and full prompt →</a></p>
+
+These samples demonstrate the 019 aesthetic motive; they do not turn the post's earlier canvas into a current default. The four modes still follow the source-adaptive and custom sizing logic below.
+
 ## Four outputs, one recognition system
 
 If no mode is specified, the skill asks first. Dimensions may be supplied at the same time; exact pixels take priority.

@@ -43,6 +43,27 @@ XXD Panel 019 هي مهارة لتوليد الصور مخصّصة لـ Codex و
 - **طابع طباعي متقشّف:** يدعم التنقيط الخفيف وملمس الورق وانزياح التسجيل التسلسل المسطّح بدلاً من محاكاة 3D لامع.
 - **طباعة تحريرية:** يشارك العنوان والنص الدقيق في الهندسة والوزن البصري والإيقاع المكاني.
 
+## نماذج · من X
+
+> [Xiaoxiaodong (@xiaoxiaodong01)](https://x.com/xiaoxiaodong01/status/2090144142366233008) · 19 أغسطس 2026<br>
+> GPT2 × ريترو × مسطّح × توجيه جمالي × VOL.019<br>
+> يوضح المنشور أيضاً تفضيل اللغة: فعند تحديد لغة مثل الإسبانية، يُعاد ابتكار النص طبيعياً بما يلائم جمهورها.
+
+<table>
+  <tr>
+    <td width="50%"><a href="https://x.com/xiaoxiaodong01/status/2090144142366233008"><img src="https://pbs.twimg.com/media/HQGvA3TasAAH3cc.jpg?format=jpg&amp;name=large" alt="نموذج XXD Panel 019 رقم 1"></a></td>
+    <td width="50%"><a href="https://x.com/xiaoxiaodong01/status/2090144142366233008"><img src="https://pbs.twimg.com/media/HQGvA3RbgAA_3_D.jpg?format=jpg&amp;name=large" alt="نموذج XXD Panel 019 رقم 2"></a></td>
+  </tr>
+  <tr>
+    <td width="50%"><a href="https://x.com/xiaoxiaodong01/status/2090144142366233008"><img src="https://pbs.twimg.com/media/HQGvA3RbAAAP0Wj.jpg?format=jpg&amp;name=large" alt="نموذج XXD Panel 019 رقم 3"></a></td>
+    <td width="50%"><a href="https://x.com/xiaoxiaodong01/status/2090144142366233008"><img src="https://pbs.twimg.com/media/HQGvA3aboAAuH6f.jpg?format=jpg&amp;name=large" alt="نموذج XXD Panel 019 رقم 4"></a></td>
+  </tr>
+</table>
+
+<p align="center"><a href="https://x.com/xiaoxiaodong01/status/2090144142366233008">عرض المنشور الأصلي والتوجيه كاملاً ←</a></p>
+
+توضح هذه النماذج الدافع الجمالي لـ 019، ولا تجعل مقاس المنشور السابق قيمة افتراضية حالية. وتظل الأنماط الأربعة خاضعة لمنطق التكيّف مع المصدر والمقاسات المخصّصة أدناه.
+
 ## أربعة مخرجات، ومنظومة تعرّف واحدة
 
 إذا لم يحدّد المستخدم النمط، تسأل المهارة أولاً. ويمكن إدخال الأبعاد في الرد نفسه، وتبقى قيم البكسل الدقيقة هي الأعلى أولوية.

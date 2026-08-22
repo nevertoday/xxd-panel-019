@@ -41,6 +41,27 @@ XXD Panel 019 是一个面向 Codex 与兼容 Agent 的图像生成 Skill。它�
 - **克制的印刷气质**：轻微网点、纸感和套印特征服务于平面层级，不模拟光滑 3D。
 - **编辑式文字**：标题与微型文字参与几何关系、视觉重心和空间节奏。
 
+## 样张 · 来自 X
+
+> [小小东（@xiaoxiaodong01）](https://x.com/xiaoxiaodong01/status/2090144142366233008) · 2026 年 8 月 19 日<br>
+> GPT2 × 复古 × 扁平 × 美学提示词 × VOL.019<br>
+> 推文同时演示：在提示词中注明“语言偏好：西班牙语”等目标语言，文字会跟随受众语言自然转创。
+
+<table>
+  <tr>
+    <td width="50%"><a href="https://x.com/xiaoxiaodong01/status/2090144142366233008"><img src="https://pbs.twimg.com/media/HQGvA3TasAAH3cc.jpg?format=jpg&amp;name=large" alt="XXD Panel 019 样张 1"></a></td>
+    <td width="50%"><a href="https://x.com/xiaoxiaodong01/status/2090144142366233008"><img src="https://pbs.twimg.com/media/HQGvA3RbgAA_3_D.jpg?format=jpg&amp;name=large" alt="XXD Panel 019 样张 2"></a></td>
+  </tr>
+  <tr>
+    <td width="50%"><a href="https://x.com/xiaoxiaodong01/status/2090144142366233008"><img src="https://pbs.twimg.com/media/HQGvA3RbAAAP0Wj.jpg?format=jpg&amp;name=large" alt="XXD Panel 019 样张 3"></a></td>
+    <td width="50%"><a href="https://x.com/xiaoxiaodong01/status/2090144142366233008"><img src="https://pbs.twimg.com/media/HQGvA3aboAAuH6f.jpg?format=jpg&amp;name=large" alt="XXD Panel 019 样张 4"></a></td>
+  </tr>
+</table>
+
+<p align="center"><a href="https://x.com/xiaoxiaodong01/status/2090144142366233008">查看原推文与完整提示词 →</a></p>
+
+这些样张用于展示 019 的美学动机，不会把推文中的旧画幅写成当前 Skill 的默认尺寸；当前四种模式仍遵循下方的源图自适应与自定义尺寸逻辑。
+
 ## 四种输出，共享同一种识别逻辑
 
 若没有指定模式，Skill 会先询问。尺寸可以同时给出，精确像素优先。

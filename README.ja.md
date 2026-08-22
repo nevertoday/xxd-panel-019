@@ -41,6 +41,27 @@ XXD Panel 019 は、Codex と互換 Agent のための画像生成 Skill です�
 - **抑制された印刷感**：軽い網点、紙、版ずれを平面階層へ使い、滑らかな 3D 表現にはしません。
 - **編集的タイポグラフィ**：見出しとマイクロコピーを幾何学、重心、空間リズムへ参加させます。
 
+## 作例 · X より
+
+> [Xiaoxiaodong（@xiaoxiaodong01）](https://x.com/xiaoxiaodong01/status/2090144142366233008) · 2026年8月19日<br>
+> GPT2 × レトロ × フラット × 美学プロンプト × VOL.019<br>
+> 投稿では「言語設定：スペイン語」のように対象言語を指定すると、その受け手に自然なコピーへトランスクリエーションされることも示しています。
+
+<table>
+  <tr>
+    <td width="50%"><a href="https://x.com/xiaoxiaodong01/status/2090144142366233008"><img src="https://pbs.twimg.com/media/HQGvA3TasAAH3cc.jpg?format=jpg&amp;name=large" alt="XXD Panel 019 作例 1"></a></td>
+    <td width="50%"><a href="https://x.com/xiaoxiaodong01/status/2090144142366233008"><img src="https://pbs.twimg.com/media/HQGvA3RbgAA_3_D.jpg?format=jpg&amp;name=large" alt="XXD Panel 019 作例 2"></a></td>
+  </tr>
+  <tr>
+    <td width="50%"><a href="https://x.com/xiaoxiaodong01/status/2090144142366233008"><img src="https://pbs.twimg.com/media/HQGvA3RbAAAP0Wj.jpg?format=jpg&amp;name=large" alt="XXD Panel 019 作例 3"></a></td>
+    <td width="50%"><a href="https://x.com/xiaoxiaodong01/status/2090144142366233008"><img src="https://pbs.twimg.com/media/HQGvA3aboAAuH6f.jpg?format=jpg&amp;name=large" alt="XXD Panel 019 作例 4"></a></td>
+  </tr>
+</table>
+
+<p align="center"><a href="https://x.com/xiaoxiaodong01/status/2090144142366233008">元の投稿と完全なプロンプトを見る →</a></p>
+
+これらは 019 の美学的動機を示す作例です。投稿当時の画面比率を現在の既定値にはしません。4つのモードは、以下の元画像適応・カスタムサイズ方針に従います。
+
 ## 4つの出力を支える、ひとつの認識ロジック
 
 モードが未指定なら、Skill が最初に確認します。サイズも同時に指定でき、正確なピクセル値が最優先です。
