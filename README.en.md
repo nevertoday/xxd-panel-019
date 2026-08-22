@@ -120,16 +120,6 @@ Full specifications:
 
 Local composition needs Python 3 and Pillow. The safe bitmap bridge uses Python 3.11+ `tomllib`. Generation still requires a host agent with built-in raster generation or an already configured compatible raster route.
 
-## How 019 differs from 016
-
-019 shares its execution framework with [XXD Panel 016](https://github.com/nevertoday/xxd-panel-016) while keeping the necessary aesthetic differences.
-
-| 019 | 016 |
-| --- | --- |
-| recognisable subject plus geometric hierarchy | tiny anchor plus one motion field |
-| 3–5 colour retro-modernist flat illustration | 2–3 colour Riso or screen print |
-| positive/negative shape, scale contrast, hard colour planes | vast void, motion trajectory, physical grain |
-
 ## Repository
 
 ```text
