@@ -12,7 +12,7 @@
 [![Four Modes](https://img.shields.io/badge/Modes-4-d18437?style=flat-square)](#4つの出力を支えるひとつの認識ロジック)
 [![Raster Output](https://img.shields.io/badge/Output-PNG-355c7d?style=flat-square)](#境界と信頼性)
 
-<a href="README.md">简体中文</a> · <a href="README.en.md">English</a> · <strong>日本語</strong>
+<a href="README.md">简体中文</a> · <a href="README.en.md">English</a> · <strong>日本語</strong> · <a href="README.ar.md">العربية</a>
 
 </div>
 
@@ -77,7 +77,7 @@ XXD Panel 019 は、Codex と互換 Agent のための画像生成 Skill です�
 対象市場・読者 > 指定された出力言語 > コピー方針の言語；いずれも明示されていない場合は生成前に確認
 ```
 
-日本版は自然な日本語と日本語の禁則処理、韓国版は自然な韓国語と正しい空白、英国版はイギリス英語を使います。外見から国籍を推測せず、擬似外国語も使いません。
+日本版は自然な日本語と日本語の禁則処理、韓国版は自然な韓国語と正しい空白、英国版はイギリス英語、アラビア語版は自然な現代標準アラビア語、正しい字形連結、右から左の組版を使います。外見から国籍を推測せず、擬似外国語も使いません。
 
 ## 分割精度はスクリプトへ。イラストは画像生成へ
 
@@ -129,7 +129,7 @@ $xxd-panel-019
 ```text
 xxd-panel-019/
 ├── SKILL.md
-├── README.md / README.en.md / README.ja.md
+├── README.md / README.en.md / README.ja.md / README.ar.md
 ├── agents/openai.yaml
 ├── assets/banner.svg
 ├── scripts/

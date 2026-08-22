@@ -12,7 +12,7 @@
 [![Four Modes](https://img.shields.io/badge/Modes-4-d18437?style=flat-square)](#four-outputs-one-recognition-system)
 [![Raster Output](https://img.shields.io/badge/Output-PNG-355c7d?style=flat-square)](#boundaries-and-trust)
 
-<a href="README.md">简体中文</a> · <strong>English</strong> · <a href="README.ja.md">日本語</a>
+<a href="README.md">简体中文</a> · <strong>English</strong> · <a href="README.ja.md">日本語</a> · <a href="README.ar.md">العربية</a>
 
 </div>
 
@@ -77,7 +77,7 @@ Language priority:
 target market or audience > requested output language > direction language; if none is explicit, ask before generation
 ```
 
-A Japanese edition uses natural Japanese and Japanese line-breaking rules; a Korean edition uses natural Korean and correct spacing; a UK edition uses British English. The skill never infers nationality from appearance and never uses pseudo-foreign text.
+A Japanese edition uses natural Japanese and Japanese line-breaking rules; a Korean edition uses natural Korean and correct spacing; a UK edition uses British English; and an Arabic edition uses natural Modern Standard Arabic, correct shaping, and right-to-left composition. The skill never infers nationality from appearance and never uses pseudo-foreign text.
 
 ## Scripts guarantee geometry; image generation creates the illustration
 
@@ -129,7 +129,7 @@ Local composition needs Python 3 and Pillow. The safe bitmap bridge uses Python 
 ```text
 xxd-panel-019/
 ├── SKILL.md
-├── README.md / README.en.md / README.ja.md
+├── README.md / README.en.md / README.ja.md / README.ar.md
 ├── agents/openai.yaml
 ├── assets/banner.svg
 ├── scripts/

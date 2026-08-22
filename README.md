@@ -12,7 +12,7 @@
 [![Four Modes](https://img.shields.io/badge/Modes-4-d18437?style=flat-square)](#四种输出共享同一种识别逻辑)
 [![Raster Output](https://img.shields.io/badge/Output-PNG-355c7d?style=flat-square)](#边界与信任)
 
-<strong>简体中文</strong> · <a href="README.en.md">English</a> · <a href="README.ja.md">日本語</a>
+<strong>简体中文</strong> · <a href="README.en.md">English</a> · <a href="README.ja.md">日本語</a> · <a href="README.ar.md">العربية</a>
 
 </div>
 
@@ -77,7 +77,7 @@ XXD Panel 019 是一个面向 Codex 与兼容 Agent 的图像生成 Skill。它�
 目标市场／受众地区 > 指定成品语言 > 文案方向语言；以上均未明确时，生图前询问
 ```
 
-日本版使用自然日语与日文断行规则，韩国版使用自然韩语与正确空格，英国版使用英式英语。Skill 不从人物外貌推断国籍，也不使用伪外文。
+日本版使用自然日语与日文断行规则，韩国版使用自然韩语与正确空格，英国版使用英式英语，阿拉伯语版使用自然的现代标准阿拉伯语、正确连写和从右到左排版。Skill 不从人物外貌推断国籍，也不使用伪外文。
 
 ## 准确分区由脚本完成，插画仍由生图完成
 
@@ -133,7 +133,7 @@ $xxd-panel-019
 ```text
 xxd-panel-019/
 ├── SKILL.md
-├── README.md / README.en.md / README.ja.md
+├── README.md / README.en.md / README.ja.md / README.ar.md
 ├── agents/openai.yaml
 ├── assets/banner.svg
 ├── scripts/

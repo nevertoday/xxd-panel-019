@@ -1,6 +1,6 @@
 <svg width="1200" height="400" viewBox="0 0 1200 400" fill="none" xmlns="http://www.w3.org/2000/svg">
   <title>XXD Panel 019</title>
-  <desc>Recognisable retro-modernist illustration with geometric hierarchy and the XXD lion mark.</desc>
+  <desc>Recognisable retro-modernist illustration with geometric hierarchy, multilingual documentation including Arabic, and the XXD lion mark.</desc>
   <defs>
     <linearGradient id="night" x1="0" y1="0" x2="1200" y2="400" gradientUnits="userSpaceOnUse">
       <stop stop-color="#111B31"/>
@@ -28,6 +28,9 @@
   </g>
 
   <rect x="22" y="22" width="1156" height="356" rx="22" stroke="#F4E8CF" stroke-opacity="0.19"/>
+
+  <text x="1044" y="42" text-anchor="end" fill="#F4E8CF" fill-opacity="0.58" font-family="Arial, sans-serif" font-size="12" font-weight="700">中文 · EN · 日本語 ·</text>
+  <text x="1128" y="42" text-anchor="end" direction="rtl" fill="#F4E8CF" fill-opacity="0.58" font-family="Arial, sans-serif" font-size="12" font-weight="700">العربية</text>
 
   <g>
     <rect x="72" y="62" width="202" height="34" rx="17" fill="#F2D8A5"/>
