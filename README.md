@@ -45,18 +45,18 @@ XXD Panel 019 是一个面向 Codex 与兼容 Agent 的图像生成 Skill。它�
 
 若没有指定模式，Skill 会先询问。尺寸可以同时给出，精确像素优先。
 
-| 模式 | 默认画布 | 成品 |
+| 模式 | 尺寸逻辑 | 成品 |
 | --- | ---: | --- |
-| `top-bottom` | 3:4 | 原照片在上，019 插画在下，严格等高 |
-| `left-right` | 3:2 | 原照片在左，019 插画在右，严格等宽 |
-| `design-only` | 3:4 | 只保留变化后的完整插画，不显示原照片 |
+| `top-bottom` | 源图自适应 | 原照片在上，019 插画在下，每格保留完整原图尺寸，严格等高 |
+| `left-right` | 源图自适应 | 原照片在左，019 插画在右，每格保留完整原图尺寸，严格等宽 |
+| `design-only` | 源图自适应 | 只保留变化后的完整插画，不显示原照片，沿用源图比例与尺寸 |
 | `wallpaper-pack` | 四种设备尺寸 | 手机、iPad、电脑、儿童手表各一张独立 PNG |
 
 双联中的摄影保持真实，只允许克制调色和必要的环境延展。单画面与壁纸中，照片仅作为主体、关系、配色与文案的依据，不进入最终画面。
 
 ### 四端壁纸：同一家族，不是同一张图
 
-默认尺寸：手机 `1440×3200`、iPad `2048×2732`、电脑 `3840×2160`、儿童手表 `1024×1024`。可逐设备覆盖。
+壁纸套装不会静默套用尺寸。选择“常用设备预设”时使用手机 `1440×3200`、iPad `2048×2732`、电脑 `3840×2160`、儿童手表 `1024×1024`；也可以逐设备自定义。
 
 - **连贯套装（推荐）**：先生成并验收 iPad 定调图；另外三张都使用“原照片＋同一张定调图”重新构图。
 - **四张独立**：每张只参考原照片，让不同设备拥有更自由的解法。
@@ -65,7 +65,7 @@ XXD Panel 019 是一个面向 Codex 与兼容 Agent 的图像生成 Skill。它�
 
 ## 文案必须与画面高度绑定
 
-文字默认开启。自动文案不是从“Memory / Dream / Journey”一类通用词中抽取，而是先读取画面的事实、关系张力和有依据的潜台词，再寻找一个让观众重新看懂照片的标题。
+文字不再静默开启。正式生图前先选择自动文案、自定义文案或无文字，并为前两者注明目标语言或地区。自动文案不会从“Memory / Dream / Journey”一类通用词中抽取，而是先读取画面的事实、关系张力和有依据的潜台词，再寻找一个让观众重新看懂照片的标题。
 
 标题要通过“换图测试”：换到无关照片仍然成立，就说明它不属于当前作品。微型文字必须延续同一个语义核心，不能为了排版随意堆序列号或伪档案标签。
 
@@ -74,7 +74,7 @@ XXD Panel 019 是一个面向 Codex 与兼容 Agent 的图像生成 Skill。它�
 文案语言优先级：
 
 ```text
-目标市场／受众地区 > 指定成品语言 > 文案方向语言 > 当前请求语言
+目标市场／受众地区 > 指定成品语言 > 文案方向语言；以上均未明确时，生图前询问
 ```
 
 日本版使用自然日语与日文断行规则，韩国版使用自然韩语与正确空格，英国版使用英式英语。Skill 不从人物外貌推断国籍，也不使用伪外文。
@@ -84,7 +84,7 @@ XXD Panel 019 是一个面向 Codex 与兼容 Agent 的图像生成 Skill。它�
 `scripts/compose_panel.py` 负责规划、严格 50/50 合成、最终尺寸和审计。它不会用 SVG 或程序化色块替代真正的位图生图。
 
 ```bash
-python3 scripts/compose_panel.py --plan --layout top-bottom
+python3 scripts/compose_panel.py --plan --layout top-bottom --source photo.png
 python3 scripts/compose_panel.py --plan --layout left-right --size 2560x1440
 python3 scripts/compose_panel.py --audit result.png --layout design-only --size 2048x2048
 ```
@@ -171,4 +171,21 @@ XXD 是小小东的品牌名缩写。本项目由 [@xiaoxiaodong01](https://x.co
 
 **简化画面，但不简化它的身份。**
 
+</div>
+
+---
+
+<div align="center">
+  <h2>☕ 支持这个开源项目</h2>
+  <p>如果这个项目为你节省了时间，欢迎点亮 Star、分享给朋友，或请小小东喝杯咖啡。</p>
+  <table>
+    <tr>
+      <td align="center" width="240">
+        <a href="https://xiaoxiaodong.pages.dev/assets/wechat-qr.png"><img src="https://xiaoxiaodong.pages.dev/assets/wechat-qr.png" alt="联系小小东赞赏项目" width="180"></a><br>
+        <strong>中国用户赞赏</strong><br>
+        <sub>扫码添加微信，备注「赞赏」</sub>
+      </td>
+    </tr>
+  </table>
+  <p><sub>赞赏完全自愿，不影响项目的免费使用。</sub></p>
 </div>

@@ -1,4 +1,4 @@
 interface:
   display_name: "xxd-panel-019"
   short_description: "Create photo–illustration panels, solo art, or wallpapers."
-  default_prompt: "Use $xxd-panel-019 to ask me for top-bottom, left-right, design-only, or four-device wallpaper-pack mode, then transform each supplied photo into retro-modernist editorial artwork."
+  default_prompt: "Use $xxd-panel-019 to ask for the output mode and copy/language preference, preserve source-adaptive dimensions unless I specify a size, then transform each supplied photo into retro-modernist editorial artwork."

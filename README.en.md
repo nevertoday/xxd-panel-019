@@ -45,18 +45,18 @@ source photo → identify subject and relation → lock identity cues → extrac
 
 If no mode is specified, the skill asks first. Dimensions may be supplied at the same time; exact pixels take priority.
 
-| Mode | Default canvas | Deliverable |
+| Mode | Sizing logic | Deliverable |
 | --- | ---: | --- |
-| `top-bottom` | 3:4 | original photo above, 019 illustration below, exact 50/50 split |
-| `left-right` | 3:2 | original photo left, 019 illustration right, exact 50/50 split |
-| `design-only` | 3:4 | one complete transformed illustration with no visible source photo |
+| `top-bottom` | source-adaptive | original photo above, 019 illustration below, each panel retains the complete source size; exact 50/50 split |
+| `left-right` | source-adaptive | original photo left, 019 illustration right, each panel retains the complete source size; exact 50/50 split |
+| `design-only` | source-adaptive | one complete transformed illustration with no visible source photo; retains the source ratio and dimensions |
 | `wallpaper-pack` | four device sizes | separate phone, iPad, desktop, and watch PNGs |
 
 Photography in paired modes remains truthful, with only restrained grading and necessary environmental extension. In design-only and wallpaper modes, the photograph supplies subject, relation, colour, and copy evidence but does not appear in the result.
 
 ### Wallpaper packs: one family, not one image
 
-Defaults are phone `1440×3200`, iPad `2048×2732`, desktop `3840×2160`, and watch `1024×1024`; each can be overridden.
+Wallpaper-pack has no silent size default. Choose the common device preset—phone `1440×3200`, iPad `2048×2732`, desktop `3840×2160`, watch `1024×1024`—or provide labeled custom sizes.
 
 - **Linked pack (recommended):** generate and approve the iPad anchor first; the other three receive the original photo plus that same anchor and are recomposed for their own devices.
 - **Independent set:** every device receives only the source photograph and may explore more freely.
@@ -65,7 +65,7 @@ A linked pack carries palette, graphic grammar, print character, and typographic
 
 ## Copy must belong to the image
 
-Copy is on by default. Automatic copy does not reach for generic words such as “Memory”, “Dream”, or “Journey”. It reads visible fact, relational tension, and grounded subtext, then finds a title that makes the viewer see the photograph again.
+Before generation, choose automatic copy, custom copy, or text-free output, and name the target language or locale for the first two. Automatic copy does not reach for generic words such as “Memory”, “Dream”, or “Journey”. It reads visible fact, relational tension, and grounded subtext, then finds a title that makes the viewer see the photograph again.
 
 The title must pass the unrelated-image swap test. If it works just as well on another photograph, it does not belong here. Microcopy must extend the same semantic core rather than fill the layout with random serial numbers or pseudo-archive labels.
 
@@ -74,7 +74,7 @@ Finished user wording remains verbatim. A direction or editable draft is transcr
 Language priority:
 
 ```text
-target market or audience > requested output language > direction language > request language
+target market or audience > requested output language > direction language; if none is explicit, ask before generation
 ```
 
 A Japanese edition uses natural Japanese and Japanese line-breaking rules; a Korean edition uses natural Korean and correct spacing; a UK edition uses British English. The skill never infers nationality from appearance and never uses pseudo-foreign text.
@@ -84,7 +84,7 @@ A Japanese edition uses natural Japanese and Japanese line-breaking rules; a Kor
 `scripts/compose_panel.py` handles planning, exact 50/50 raster composition, final dimensions, and auditing. It never substitutes SVG or programmatic colour blocks for real bitmap generation.
 
 ```bash
-python3 scripts/compose_panel.py --plan --layout top-bottom
+python3 scripts/compose_panel.py --plan --layout top-bottom --source photo.png
 python3 scripts/compose_panel.py --plan --layout left-right --size 2560x1440
 python3 scripts/compose_panel.py --audit result.png --layout design-only --size 2048x2048
 ```
@@ -167,4 +167,21 @@ Choose either activation route:
 
 **Reduce the image, not its identity.**
 
+</div>
+
+---
+
+<div align="center">
+  <h2>☕ Support this open-source project</h2>
+  <p>If this project saved you time, a Star, a share, or a coffee helps keep it moving.</p>
+  <table>
+    <tr>
+      <td align="center" width="240">
+        <a href="https://github.com/nevertoday/zhongguo-traditional-colors/blob/main/docs/images/buy-me-a-coffee-qr.png?raw=true"><img src="https://github.com/nevertoday/zhongguo-traditional-colors/blob/main/docs/images/buy-me-a-coffee-qr.png?raw=true" alt="Support Xiaoxiaodong through Buy Me a Coffee" width="180"></a><br>
+        <strong>Buy me a coffee</strong><br>
+        <sub>Scan or open the QR code to support Xiaoxiaodong</sub>
+      </td>
+    </tr>
+  </table>
+  <p><sub>Support is entirely optional and never changes access to this open-source project.</sub></p>
 </div>
