@@ -12,7 +12,7 @@
 [![Four Modes](https://img.shields.io/badge/Modes-4-d18437?style=flat-square)](#four-outputs-one-recognition-system)
 [![Raster Output](https://img.shields.io/badge/Output-PNG-355c7d?style=flat-square)](#boundaries-and-trust)
 
-<a href="README.md">简体中文</a> · <strong>English</strong> · <a href="README.ja.md">日本語</a> · <a href="README.ar.md">العربية</a>
+<a href="README.md">简体中文</a> · <strong>English</strong> · <a href="README.ja.md">日本語</a> · <a href="README.ko.md">한국어</a> · <a href="README.ar.md">العربية</a>
 
 </div>
 
@@ -150,7 +150,7 @@ Local composition needs Python 3 and Pillow. The safe bitmap bridge uses Python 
 ```text
 xxd-panel-019/
 ├── SKILL.md
-├── README.md / README.en.md / README.ja.md / README.ar.md
+├── README.md / README.en.md / README.ja.md / README.ko.md / README.ar.md
 ├── agents/openai.yaml
 ├── assets/banner.svg
 ├── scripts/

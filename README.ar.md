@@ -12,7 +12,7 @@
 [![Four Modes](https://img.shields.io/badge/Modes-4-d18437?style=flat-square)](#أربعة-مخرجات-ومنظومة-تعرّف-واحدة)
 [![Raster Output](https://img.shields.io/badge/Output-PNG-355c7d?style=flat-square)](#الحدود-والثقة)
 
-<a href="README.md">简体中文</a> · <a href="README.en.md">English</a> · <a href="README.ja.md">日本語</a> · <strong>العربية</strong>
+<a href="README.md">简体中文</a> · <a href="README.en.md">English</a> · <a href="README.ja.md">日本語</a> · <a href="README.ko.md">한국어</a> · <strong>العربية</strong>
 
 </div>
 
@@ -152,7 +152,7 @@ $xxd-panel-019
 ```text
 xxd-panel-019/
 ├── SKILL.md
-├── README.md / README.en.md / README.ja.md / README.ar.md
+├── README.md / README.en.md / README.ja.md / README.ko.md / README.ar.md
 ├── agents/openai.yaml
 ├── assets/banner.svg
 ├── scripts/
