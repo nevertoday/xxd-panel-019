@@ -139,13 +139,19 @@ xxd-panel-019/
 
 XXD は Xiaoxiaodong のブランド名を略したものです。このプロジェクトは [@xiaoxiaodong01](https://x.com/xiaoxiaodong01) が制作・管理しています。
 
-## 有料コミュニティ
+## コミュニティと会員向けプロンプトライブラリ
 
-参加方法や XXD プロジェクトに関するお問い合わせは、以下の WeChat QR コードをスキャンしてください。
+### Skills Q&A｜CNY 99
+
+料金には Skills の利用に関する Q&A サポートが含まれます。[知识星球から参加](https://wx.zsxq.com/group/15554814142882)できます。参加方法や支払いに関するお問い合わせは、以下の WeChat QR コードをスキャンしてください。
 
 <p align="center">
   <a href="https://xiaoxiaodong.pages.dev/assets/wechat-qr.png"><img src="https://xiaoxiaodong.pages.dev/assets/wechat-qr.png" alt="XXD 有料コミュニティの WeChat QR コード" width="320"></a>
 </p>
+
+### 会員向けプロンプトライブラリ｜年額 CNY 699
+
+[XXD 会員向けプロンプトライブラリ](https://vip.xiaoxiaodong.ai/)から、年額 CNY 699 で直接登録できます。
 
 <div align="center">
 

@@ -143,13 +143,19 @@ xxd-panel-019/
 
 XXD 是小小东的品牌名缩写。本项目由 [@xiaoxiaodong01](https://x.com/xiaoxiaodong01) 创作与维护。
 
-## 付费社群
+## 社群与成员提示词库
 
-如需了解 XXD 付费社群、加入方式或项目相关问题，请扫描下方微信二维码联系。
+### Skills 答疑｜99 元
+
+费用用于 Skills 使用答疑。可直接[加入知识星球](https://wx.zsxq.com/group/15554814142882)；如需咨询加入或付款问题，请扫描下方微信二维码联系。
 
 <p align="center">
   <a href="https://xiaoxiaodong.pages.dev/assets/wechat-qr.png"><img src="https://xiaoxiaodong.pages.dev/assets/wechat-qr.png" alt="XXD 付费社群微信二维码" width="320"></a>
 </p>
+
+### 成员提示词库｜699 元/年
+
+[XXD 成员提示词库](https://vip.xiaoxiaodong.ai/)支持自助开通，年费 699 元。
 
 <div align="center">
 
