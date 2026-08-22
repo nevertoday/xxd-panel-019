@@ -143,6 +143,14 @@ xxd-panel-019/
 
 XXD 是小小东的品牌名缩写。本项目由 [@xiaoxiaodong01](https://x.com/xiaoxiaodong01) 创作与维护。
 
+## 付费社群
+
+如需了解 XXD 付费社群、加入方式或项目相关问题，请扫描下方微信二维码联系。
+
+<p align="center">
+  <a href="https://xiaoxiaodong.pages.dev/assets/wechat-qr.png"><img src="https://xiaoxiaodong.pages.dev/assets/wechat-qr.png" alt="XXD 付费社群微信二维码" width="320"></a>
+</p>
+
 <div align="center">
 
 **简化画面，但不简化它的身份。**

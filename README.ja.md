@@ -139,6 +139,14 @@ xxd-panel-019/
 
 XXD は Xiaoxiaodong のブランド名を略したものです。このプロジェクトは [@xiaoxiaodong01](https://x.com/xiaoxiaodong01) が制作・管理しています。
 
+## 有料コミュニティ
+
+参加方法や XXD プロジェクトに関するお問い合わせは、以下の WeChat QR コードをスキャンしてください。
+
+<p align="center">
+  <a href="https://xiaoxiaodong.pages.dev/assets/wechat-qr.png"><img src="https://xiaoxiaodong.pages.dev/assets/wechat-qr.png" alt="XXD 有料コミュニティの WeChat QR コード" width="320"></a>
+</p>
+
 <div align="center">
 
 **画面を簡潔にしても、その固有性までは削らない。**
