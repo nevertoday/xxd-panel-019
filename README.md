@@ -197,25 +197,3 @@ XXD 是小小东的品牌名缩写。本项目由 [@xiaoxiaodong01](https://x.co
 **简化画面，但不简化它的身份。**
 
 </div>
-
----
-
-<div align="center">
-  <h2>⚡ 算力赞助</h2>
-  <p>如果这个项目为你节省了时间，欢迎点亮 Star、分享给朋友，或自愿赞助项目算力。</p>
-  <table>
-    <tr>
-      <td align="center" width="240">
-        <a href="https://github.com/nevertoday/MediaCrawler/blob/main/static/images/wechat_pay.jpeg?raw=true"><img src="https://github.com/nevertoday/MediaCrawler/blob/main/static/images/wechat_pay.jpeg?raw=true" alt="XXD 算力赞助微信支付收款码" height="220"></a><br>
-        <strong>微信支付</strong><br>
-        <sub>扫描二维码赞助算力</sub>
-      </td>
-      <td align="center" width="240">
-        <a href="https://github.com/nevertoday/MediaCrawler/blob/main/static/images/zfb_pay.jpeg?raw=true"><img src="https://github.com/nevertoday/MediaCrawler/blob/main/static/images/zfb_pay.jpeg?raw=true" alt="XXD 算力赞助支付宝收款码" height="220"></a><br>
-        <strong>支付宝</strong><br>
-        <sub>扫描二维码赞助算力</sub>
-      </td>
-    </tr>
-  </table>
-  <p><sub>算力赞助完全自愿，用于支持生成测试与项目持续维护，不影响项目的免费使用。</sub></p>
-</div>
