@@ -144,19 +144,24 @@ xxd-panel-019/
 
 XXD is the abbreviated brand name of Xiaoxiaodong. This project is created and maintained by [@xiaoxiaodong01](https://x.com/xiaoxiaodong01).
 
-## Community and Member Prompt Library
+## Support and Membership
 
 ### Skills Q&A · CNY 99
 
-The fee covers Q&A support for using the Skills. [Join through Knowledge Planet](https://wx.zsxq.com/group/15554814142882), or scan the WeChat QR code below with questions about access or payment.
+This fee covers Q&A support for using the Skills. To purchase or ask a question, contact Xiaoxiaodong through the WeChat QR code below.
+
+### Knowledge Planet + Member Prompt Library · CNY 699/year
+
+The Knowledge Planet community and the [XXD Member Prompt Library](https://vip.xiaoxiaodong.ai/) are one membership: **one annual payment unlocks both, with no second purchase required.**
+
+Choose either activation route:
+
+1. Subscribe through [Knowledge Planet](https://wx.zsxq.com/group/15554814142882), then contact Xiaoxiaodong on WeChat for a Member Prompt Library redemption code.
+2. Subscribe directly through the [Member Prompt Library](https://vip.xiaoxiaodong.ai/), then contact Xiaoxiaodong on WeChat for an invitation to Knowledge Planet.
 
 <p align="center">
   <a href="https://xiaoxiaodong.pages.dev/assets/wechat-qr.png"><img src="https://xiaoxiaodong.pages.dev/assets/wechat-qr.png" alt="XXD paid community WeChat QR code" width="320"></a>
 </p>
-
-### Member Prompt Library · CNY 699/year
-
-The [XXD Member Prompt Library](https://vip.xiaoxiaodong.ai/) is available as a self-service annual membership for CNY 699.
 
 <div align="center">
 

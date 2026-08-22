@@ -144,19 +144,24 @@ xxd-panel-019/
 
 XXD は Xiaoxiaodong のブランド名を略したものです。このプロジェクトは [@xiaoxiaodong01](https://x.com/xiaoxiaodong01) が制作・管理しています。
 
-## コミュニティと会員向けプロンプトライブラリ
+## サポートと会員特典
 
 ### Skills Q&A｜CNY 99
 
-料金には Skills の利用に関する Q&A サポートが含まれます。[知识星球から参加](https://wx.zsxq.com/group/15554814142882)できます。参加方法や支払いに関するお問い合わせは、以下の WeChat QR コードをスキャンしてください。
+この料金は Skills の利用に関する Q&A サポート向けです。購入またはお問い合わせは、以下の WeChat QR コードから Xiaoxiaodong へご連絡ください。
+
+### 知识星球＋会員向けプロンプトライブラリ｜年額 CNY 699
+
+知识星球と [XXD 会員向けプロンプトライブラリ](https://vip.xiaoxiaodong.ai/)は、ひとつの会員特典です。**年額料金を一度支払えば両方を利用でき、二重に購入する必要はありません。**
+
+登録方法は、次のどちらかを選べます。
+
+1. [知识星球](https://wx.zsxq.com/group/15554814142882)で登録後、WeChat で Xiaoxiaodong に連絡し、会員向けプロンプトライブラリの引換コードを受け取る。
+2. [会員向けプロンプトライブラリ](https://vip.xiaoxiaodong.ai/)で直接登録後、WeChat で Xiaoxiaodong に連絡し、知识星球への招待を受ける。
 
 <p align="center">
   <a href="https://xiaoxiaodong.pages.dev/assets/wechat-qr.png"><img src="https://xiaoxiaodong.pages.dev/assets/wechat-qr.png" alt="XXD 有料コミュニティの WeChat QR コード" width="320"></a>
 </p>
-
-### 会員向けプロンプトライブラリ｜年額 CNY 699
-
-[XXD 会員向けプロンプトライブラリ](https://vip.xiaoxiaodong.ai/)から、年額 CNY 699 で直接登録できます。
 
 <div align="center">
 
