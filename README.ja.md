@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="./assets/banner.svg" alt="XXD Panel 019 プロジェクトバナー" width="1200">
+</p>
+
 <div align="center">
 
 # 🦁 XXD Panel 019
@@ -127,6 +131,7 @@ xxd-panel-019/
 ├── SKILL.md
 ├── README.md / README.en.md / README.ja.md
 ├── agents/openai.yaml
+├── assets/banner.svg
 ├── scripts/
 │   ├── compose_panel.py
 │   └── configured_imagegen.py
