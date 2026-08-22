@@ -1,6 +1,6 @@
 <div align="center">
 
-# XXD Panel 019
+# 🦁 XXD Panel 019
 
 ### 写真固有の被写体と関係を、見分けられるままモダニズム・イラストへ再構成する
 

@@ -1,6 +1,6 @@
 <div align="center">
 
-# XXD Panel 019
+# 🦁 XXD Panel 019
 
 ### 把照片中的特定主体与关系，重构成一张仍然认得出来的现代主义插画
 
