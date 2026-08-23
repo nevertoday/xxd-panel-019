@@ -64,7 +64,7 @@ These samples demonstrate the 019 aesthetic motive; they do not turn the post's 
 
 ## Four outputs, one recognition system
 
-If no mode is specified, the skill asks first. Dimensions may be supplied at the same time; exact pixels take priority.
+The four modes support single or multiple selection. Reply with `1`, `1+3`, `1,2,4`, or `all`; the Skill deduplicates and runs them in menu order 1→4. Every mode is delivered independently in its own task directory—never as an overview—and `all` yields seven PNGs per source (one for each ordinary mode plus four wallpapers). Sizes may be labelled by mode in the same reply; unlabeled ordinary modes remain source-adaptive. Copy is shared across selected modes by default and may be overridden per mode.
 
 | Mode | Sizing logic | Deliverable |
 | --- | ---: | --- |
@@ -127,7 +127,7 @@ $xxd-panel-019
 Turn this photo into a linked four-device wallpaper pack. Use British English for the main title.
 ```
 
-You may also invoke the skill with only a photograph. It asks for the output mode in a numbered multiline menu, then asks whether a wallpaper pack should be linked or independent when necessary.
+You may also invoke the skill with only a photograph. It asks for one or more output modes in a numbered multiline menu, then asks whether a wallpaper pack should be linked or independent when necessary.
 
 Full specifications:
 
@@ -141,7 +141,7 @@ Full specifications:
 - Every invocation opens a fresh task directory, even with identical source and parameters.
 - Final deliverables are PNG bitmaps, never SVG, HTML, Canvas, or programmatic drawing substitutes.
 - The configured bitmap bridge emits sanitised status only and does not print providers, endpoints, headers, credentials, prompts, or server response bodies.
-- Ordinary modes return one result per source; wallpaper mode returns exactly four separate files, never a contact sheet.
+- Each selected ordinary mode returns one file; selected `wallpaper-pack` adds four separate wallpapers. `all` returns seven PNGs per source across four sibling mode directories, never a contact sheet or overview.
 
 Local composition needs Python 3 and Pillow. The safe bitmap bridge uses Python 3.11+ `tomllib`. Generation still requires a host agent with built-in raster generation or an already configured compatible raster route.
 
