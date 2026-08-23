@@ -134,6 +134,7 @@ Full specifications:
 - [Skill workflow](SKILL.md)
 - [Chinese full prompt](references/xxd-panel-019-prompt.zh-CN.md)
 - [English full prompt](references/xxd-panel-019-prompt.en.md)
+- [Original 019 style brief](references/019-source.md)
 
 ## Boundaries and trust
 
@@ -158,7 +159,8 @@ xxd-panel-019/
 │   └── configured_imagegen.py
 └── references/
     ├── xxd-panel-019-prompt.zh-CN.md
-    └── xxd-panel-019-prompt.en.md
+    ├── xxd-panel-019-prompt.en.md
+    └── 019-source.md
 ```
 
 ## About XXD

@@ -134,6 +134,7 @@ $xxd-panel-019
 - [Skill ワークフロー](SKILL.md)
 - [中国語版フルプロンプト](references/xxd-panel-019-prompt.zh-CN.md)
 - [英語版フルプロンプト](references/xxd-panel-019-prompt.en.md)
+- [019 オリジナルスタイル原稿](references/019-source.md)
 
 ## 境界と信頼性
 
@@ -158,7 +159,8 @@ xxd-panel-019/
 │   └── configured_imagegen.py
 └── references/
     ├── xxd-panel-019-prompt.zh-CN.md
-    └── xxd-panel-019-prompt.en.md
+    ├── xxd-panel-019-prompt.en.md
+    └── 019-source.md
 ```
 
 ## XXD について

@@ -136,6 +136,7 @@ $xxd-panel-019
 - [مسار عمل المهارة](SKILL.md)
 - [التوجيه الكامل بالصينية](references/xxd-panel-019-prompt.zh-CN.md)
 - [التوجيه الكامل بالإنجليزية](references/xxd-panel-019-prompt.en.md)
+- [موجز الأسلوب الأصلي 019](references/019-source.md)
 
 ## الحدود والثقة
 
@@ -160,7 +161,8 @@ xxd-panel-019/
 │   └── configured_imagegen.py
 └── references/
     ├── xxd-panel-019-prompt.zh-CN.md
-    └── xxd-panel-019-prompt.en.md
+    ├── xxd-panel-019-prompt.en.md
+    └── 019-source.md
 ```
 
 ## عن XXD

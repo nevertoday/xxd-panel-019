@@ -138,6 +138,7 @@ $xxd-panel-019
 - [Skill 工作流](SKILL.md)
 - [中文完整提示词](references/xxd-panel-019-prompt.zh-CN.md)
 - [English full prompt](references/xxd-panel-019-prompt.en.md)
+- [019 原始风格提示词](references/019-source.md)
 
 ## 边界与信任
 
@@ -162,7 +163,8 @@ xxd-panel-019/
 │   └── configured_imagegen.py
 └── references/
     ├── xxd-panel-019-prompt.zh-CN.md
-    └── xxd-panel-019-prompt.en.md
+    ├── xxd-panel-019-prompt.en.md
+    └── 019-source.md
 ```
 
 ## 关于 XXD

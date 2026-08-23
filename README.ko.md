@@ -134,6 +134,7 @@ $xxd-panel-019
 - [Skill 워크플로](SKILL.md)
 - [중문 전체 프롬프트](references/xxd-panel-019-prompt.zh-CN.md)
 - [영문 전체 프롬프트](references/xxd-panel-019-prompt.en.md)
+- [019 원본 스타일 브리프](references/019-source.md)
 
 ## 경계와 신뢰
 
@@ -158,7 +159,8 @@ xxd-panel-019/
 │   └── configured_imagegen.py
 └── references/
     ├── xxd-panel-019-prompt.zh-CN.md
-    └── xxd-panel-019-prompt.en.md
+    ├── xxd-panel-019-prompt.en.md
+    └── 019-source.md
 ```
 
 ## XXD 소개
