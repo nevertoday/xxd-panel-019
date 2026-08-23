@@ -1,7 +1,14 @@
-# XXD Panel 019 sample provenance
+# XXD Panel 019 samples
 
-The verified XXD Panel 019 samples are presented in the five project READMEs from Xiaoxiaodong's original X post:
+## Verified source
 
-- https://x.com/xiaoxiaodong01/status/2090144142366233008
+- X post: https://x.com/xiaoxiaodong01/status/2090144142366233008
+- Author: Xiaoxiaodong (`@xiaoxiaodong01`)
+- Verification: The X post identifies this series as `VOL.019`.
+- Local files:
+  - `sample-01.jpg`
+  - `sample-02.jpg`
+  - `sample-03.jpg`
+  - `sample-04.jpg`
 
-This folder records provenance and reserves space for future local sample assets. The remote sample images demonstrate the 019 aesthetic only; their subject, palette, copy, composition, and historical canvas are never generation defaults or substitutes for the current source photograph.
+The repository READMEs display these local copies and link every image back to its original X post. The samples demonstrate the style's aesthetic motive and range only; they never become generation references, source material, fixed subjects, palettes, composition, copy, or default canvas sizes.
