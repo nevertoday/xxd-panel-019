@@ -43,7 +43,18 @@ Reduction should remove noise, not identity.
 
 These samples demonstrate the 019 aesthetic motive; they do not turn the post's earlier canvas into a current default. The four modes still follow the explicit pre-generation canvas and custom sizing logic below.
 
-## Why it exists
+<!-- xxd-panel-benefit:start -->
+## Quick fit check: is XXD Panel 019 right for you?
+
+| What you need to know | What this style gives you |
+|---|---|
+| **What you will get** | Reconstruct a specific photographed subject and relationship as a modernist illustration that remains recognisable |
+| **Recognizable signature** | RECOGNISE FIRST · REDUCE WITH INTENT · COMPOSE WITH TYPE |
+| **How it respects your source** | Recognizable identity, relationships, structure, and supplied facts stay anchored. Styling reorganizes the visual language instead of replacing your content with an unrelated template. |
+| **Where you can use it** | Create top-bottom, left-right, design-only, and four-device wallpaper outputs in multiple ratios or exact sizes. Delivery changes; the Panel's style identity does not get diluted. |
+<!-- xxd-panel-benefit:end -->
+
+## How it turns your source into a distinctive result
 
 Many photo-to-flat-illustration workflows collapse into a universal visual kit: people become faceless silhouettes, a real place becomes a sun and road, colours come from a template, and type becomes decorative filler. The image looks designed but no longer belongs to the photograph.
 
@@ -53,7 +64,7 @@ Many photo-to-flat-illustration workflows collapse into a universal visual kit: 
 source photo → identify subject and relation → lock identity cues → extract 3–5 colours → reconstruct → typeset → inspect
 ```
 
-## The 019 visual contract
+## What makes the finished style recognizable
 
 - **Recognition first:** preserve subject and relationship before pursuing graphic tension.
 - **At least three identity cues:** contour, posture, proportion, direction, overlap, and negative shape work together.
