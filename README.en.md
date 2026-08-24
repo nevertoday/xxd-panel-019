@@ -22,25 +22,6 @@ XXD Panel 019 is an image-generation skill for Codex and compatible agents. It t
 
 Reduction should remove noise, not identity.
 
-## Why it exists
-
-Many photo-to-flat-illustration workflows collapse into a universal visual kit: people become faceless silhouettes, a real place becomes a sun and road, colours come from a template, and type becomes decorative filler. The image looks designed but no longer belongs to the photograph.
-
-019 requires at least three source-specific identity cues in every transformed frame—outer contour, posture, direction, proportion, overlap, negative shape, or distance between subjects. The geometry may be bold, but the viewer should still recognise which scene is being retold.
-
-```text
-source photo → identify subject and relation → lock identity cues → extract 3–5 colours → reconstruct → typeset → inspect
-```
-
-## The 019 visual contract
-
-- **Recognition first:** preserve subject and relationship before pursuing graphic tension.
-- **At least three identity cues:** contour, posture, proportion, direction, overlap, and negative shape work together.
-- **Three to five source colours:** the palette comes from the photograph, not an example or template.
-- **Positive/negative shape and scale:** large planes, hard facets, concise curves, and void create the eye path.
-- **Restrained print character:** light halftone, paper, and registration texture support flat hierarchy rather than glossy 3D.
-- **Editorial typography:** title and microcopy participate in geometry, visual weight, and spatial rhythm.
-
 ## Samples · from X
 
 > [Xiaoxiaodong (@xiaoxiaodong01)](https://x.com/xiaoxiaodong01/status/2090144142366233008) · 19 August 2026<br>
@@ -61,6 +42,25 @@ source photo → identify subject and relation → lock identity cues → extrac
 <p align="center"><a href="https://x.com/xiaoxiaodong01/status/2090144142366233008">View the original post and full prompt →</a></p>
 
 These samples demonstrate the 019 aesthetic motive; they do not turn the post's earlier canvas into a current default. The four modes still follow the explicit pre-generation canvas and custom sizing logic below.
+
+## Why it exists
+
+Many photo-to-flat-illustration workflows collapse into a universal visual kit: people become faceless silhouettes, a real place becomes a sun and road, colours come from a template, and type becomes decorative filler. The image looks designed but no longer belongs to the photograph.
+
+019 requires at least three source-specific identity cues in every transformed frame—outer contour, posture, direction, proportion, overlap, negative shape, or distance between subjects. The geometry may be bold, but the viewer should still recognise which scene is being retold.
+
+```text
+source photo → identify subject and relation → lock identity cues → extract 3–5 colours → reconstruct → typeset → inspect
+```
+
+## The 019 visual contract
+
+- **Recognition first:** preserve subject and relationship before pursuing graphic tension.
+- **At least three identity cues:** contour, posture, proportion, direction, overlap, and negative shape work together.
+- **Three to five source colours:** the palette comes from the photograph, not an example or template.
+- **Positive/negative shape and scale:** large planes, hard facets, concise curves, and void create the eye path.
+- **Restrained print character:** light halftone, paper, and registration texture support flat hierarchy rather than glossy 3D.
+- **Editorial typography:** title and microcopy participate in geometry, visual weight, and spatial rhythm.
 
 ## The original brief is authoritative
 
