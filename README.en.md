@@ -62,36 +62,53 @@ source photo → identify subject and relation → lock identity cues → extrac
 
 These samples demonstrate the 019 aesthetic motive; they do not turn the post's earlier canvas into a current default. The four modes still follow the explicit pre-generation canvas and custom sizing logic below.
 
+## The original brief is authoritative
+
+`references/019-source.md` is this project's sole creative and aesthetic authority. The Skill no longer summarizes or expands it, and it does not impose a shared palette, colour plan, aesthetic motive, title, or microcopy package. GPT Image 2 follows that brief's own rules for colour, material, composition, whitespace, wording, and typography.
+
+Mode and size change only the legacy 3:4 top-bottom container. In left-right mode, the brief's upper photo and lower design map to the left and right. In design-only and wallpaper modes, the lower design language expands across the whole canvas. Every other source-brief instruction remains active.
+
+## The original brief is authoritative
+
+`references/019-source.md` is this project's sole creative and aesthetic authority. The Skill no longer summarizes or expands it, and it does not impose a shared palette, colour plan, aesthetic motive, title, or microcopy package. GPT Image 2 follows that brief's own rules for colour, material, composition, whitespace, wording, and typography.
+
+Mode and size change only the legacy 3:4 top-bottom container. In left-right mode, the brief's upper photo and lower design map to the left and right. In design-only and wallpaper modes, the lower design language expands across the whole canvas. Every other source-brief instruction remains active.
+
+## The original brief is authoritative
+
+`references/019-source.md` is this project's sole creative and aesthetic authority. The Skill no longer summarizes or expands it, and it does not impose a shared palette, colour plan, aesthetic motive, title, or microcopy package. GPT Image 2 follows that brief's own rules for colour, material, composition, whitespace, wording, and typography.
+
+Mode and size change only the legacy 3:4 top-bottom container. In left-right mode, the brief's upper photo and lower design map to the left and right. In design-only and wallpaper modes, the lower design language expands across the whole canvas. Every other source-brief instruction remains active.
+
+## The original brief is authoritative
+
+`references/019-source.md` is this project's sole creative and aesthetic authority. The Skill no longer summarizes or expands it, and it does not impose a shared palette, colour plan, aesthetic motive, title, or microcopy package. GPT Image 2 follows that brief's own rules for colour, material, composition, whitespace, wording, and typography.
+
+Mode and size change only the legacy 3:4 top-bottom container. In left-right mode, the brief's upper photo and lower design map to the left and right. In design-only and wallpaper modes, the lower design language expands across the whole canvas. Every other source-brief instruction remains active.
+
+## The original brief is authoritative
+
+`references/019-source.md` is this project's sole creative and aesthetic authority. The Skill no longer summarizes or expands it, and it does not impose a shared palette, colour plan, aesthetic motive, title, or microcopy package. GPT Image 2 follows that brief's own rules for colour, material, composition, whitespace, wording, and typography.
+
+Mode and size change only the legacy 3:4 top-bottom container. In left-right mode, the brief's upper photo and lower design map to the left and right. In design-only and wallpaper modes, the lower design language expands across the whole canvas. Every other source-brief instruction remains active.
+
 ## Four combinable output modes
 
-Choose one or several modes with `1`, `1+3`, `1,2,4`, or `all`; `all` produces seven separate PNGs per source. After mode selection and before generation, the Skill explicitly asks for the whole finished canvas: the original-prompt `3:4`, an explicit source-aspect choice, a common ratio, or custom ratio/exact pixels. Source dimensions are never applied silently.
+Select one or more of `top-bottom`, `left-right`, `design-only`, and `wallpaper-pack`. Paired work is generated as one complete canvas by default; deterministic composition is only a fallback after a failed retry, for pixel-identical source preservation, or for lossless size calibration.
 
-| Mode | Canvas rule | Result |
-| --- | --- | --- |
-| `top-bottom` | user-confirmed whole canvas | one complete generation: high-fidelity source above, 019 design below, approximately 50/50 |
-| `left-right` | user-confirmed whole canvas | one complete generation: high-fidelity source left, 019 design right, approximately 50/50 |
-| `design-only` | user-confirmed whole canvas | 019 design fills the canvas; source remains invisible |
-| `wallpaper-pack` | confirmed per device | separate phone, iPad, desktop, and children's-watch PNGs |
+Ordinary sizes are also multi-select: auto-fit, source aspect, 1:1, 3:4, 4:3, 4:5, 5:4, 2:3, 3:2, 9:16, 16:9, 21:9, 5:7, 7:5, or custom ratios/exact pixels. There is no silent default. Every distinct aspect is independently recomposed from the same verbatim source brief.
 
-Paired modes use the source as a high-fidelity edit/reference input and one complete style prompt to generate the finished composition directly, so photography, design, colour, light, typography, and meaning can cohere. Deterministic composition is fallback-only: after one targeted complete-canvas retry fails, when pixel-identical source preservation is explicitly required, when the active route cannot realise the canvas, or for lossless final pixel calibration.
+Wallpaper packs may be linked or independent. A linked pack creates one anchor image, then recomposes each remaining device from the original source plus that anchor; it never crops one image into four sizes.
 
-Wallpapers may be linked or independent. A linked pack approves one iPad anchor, then recomposes every other device from the original plus that same anchor. An independent pack gives each device only the original. Neither crops another device output nor chains derivatives.
+## Text modes
 
-## Copy must belong to the image
+Before generation, resolve one of three choices:
 
-Before generation, choose automatic copy, custom copy, or text-free output, and name the target language or locale for the first two. Automatic copy does not reach for generic words such as “Memory”, “Dream”, or “Journey”. It reads visible fact, relational tension, and grounded subtext, then finds a title that makes the viewer see the photograph again.
+1. **Model generates text from the original prompt**: the user supplies only the language or locale; GPT Image 2 follows the source brief's own wording, amount, tone, and typography logic.
+2. **Use my exact text**: pass it verbatim, without rewriting, translating, or adding a title; typography still follows the source brief.
+3. **No text**: prohibit visible text and pseudo-text.
 
-The title must pass the unrelated-image swap test. If it works just as well on another photograph, it does not belong here. Microcopy must extend the same semantic core rather than fill the layout with random serial numbers or pseudo-archive labels.
-
-Finished user wording remains verbatim. A direction or editable draft is transcreated only after preserving audience, purpose, mandatory wording, tone, and implication.
-
-Language priority:
-
-```text
-target market or audience > requested output language > direction language; if none is explicit, ask before generation
-```
-
-A Japanese edition uses natural Japanese and Japanese line-breaking rules; a Korean edition uses natural Korean and correct spacing; a UK edition uses British English; and an Arabic edition uses natural Modern Standard Arabic, correct shaping, and right-to-left composition. The skill never infers nationality from appearance and never uses pseudo-foreign text.
+The outer Skill no longer pre-writes titles, microcopy, or copy packages. Output language is resolved separately from the interface language and is never guessed from a person, scene, or filename.
 
 ## Complete-canvas first, raster-only delivery
 
@@ -106,10 +123,10 @@ When the host provides genuine interactive controls, the Skill prefers card-styl
 Every setting can also be supplied as an inline variable:
 
 ```text
-/xxd-panel-019 photo.jpg --mode top-bottom,design-only --size auto,3:4,9:16 --text auto --locale ja-JP
+/xxd-panel-019 photo.jpg --mode top-bottom,design-only --size auto,3:4,9:16 --text prompt --locale ja-JP
 ```
 
-Supported parameters include `--mode`, repeatable or comma-separated `--size`, `--text auto|custom|none`, `--locale`, `--copy`, `--wallpaper linked|independent`, `--wallpaper-size`, and `--out`. Complete parameters skip all preflight questions; partial parameters trigger only the missing questions. Different aspect ratios are independently recomposed, and the four-device wallpaper pack remains a separate branch rather than being multiplied by ordinary sizes.
+Supported parameters include `--mode`, repeatable or comma-separated `--size`, `--text prompt|exact|none`, `--locale`, `--copy`, `--wallpaper linked|independent`, `--wallpaper-size`, and `--out`. Complete parameters skip all preflight questions; partial parameters trigger only the missing questions. Different aspect ratios are independently recomposed, and the four-device wallpaper pack remains a separate branch rather than being multiplied by ordinary sizes.
 
 ## Image-model priority
 
@@ -139,8 +156,8 @@ You may also invoke the skill with only a photograph. It asks for one or more ou
 Full specifications:
 
 - [Skill workflow](SKILL.md)
-- [Chinese full prompt](references/xxd-panel-019-prompt.zh-CN.md)
-- [English full prompt](references/xxd-panel-019-prompt.en.md)
+- [Chinese runtime adapter](references/xxd-panel-019-prompt.zh-CN.md)
+- [English runtime adapter](references/xxd-panel-019-prompt.en.md)
 - [Original 019 style brief](references/019-source.md)
 
 ## Boundaries and trust
