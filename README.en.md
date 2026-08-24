@@ -60,29 +60,22 @@ source photo → identify subject and relation → lock identity cues → extrac
 
 <p align="center"><a href="https://x.com/xiaoxiaodong01/status/2090144142366233008">View the original post and full prompt →</a></p>
 
-These samples demonstrate the 019 aesthetic motive; they do not turn the post's earlier canvas into a current default. The four modes still follow the source-adaptive and custom sizing logic below.
+These samples demonstrate the 019 aesthetic motive; they do not turn the post's earlier canvas into a current default. The four modes still follow the explicit pre-generation canvas and custom sizing logic below.
 
-## Four outputs, one recognition system
+## Four combinable output modes
 
-The four modes support single or multiple selection. Reply with `1`, `1+3`, `1,2,4`, or `all`; the Skill deduplicates and runs them in menu order 1→4. Every mode is delivered independently in its own task directory—never as an overview—and `all` yields seven PNGs per source (one for each ordinary mode plus four wallpapers). Sizes may be labelled by mode in the same reply; unlabeled ordinary modes remain source-adaptive. Copy is shared across selected modes by default and may be overridden per mode.
+Choose one or several modes with `1`, `1+3`, `1,2,4`, or `all`; `all` produces seven separate PNGs per source. After mode selection and before generation, the Skill explicitly asks for the whole finished canvas: the original-prompt `3:4`, an explicit source-aspect choice, a common ratio, or custom ratio/exact pixels. Source dimensions are never applied silently.
 
-| Mode | Sizing logic | Deliverable |
-| --- | ---: | --- |
-| `top-bottom` | source-adaptive | original photo above, 019 illustration below, each panel retains the complete source size; exact 50/50 split |
-| `left-right` | source-adaptive | original photo left, 019 illustration right, each panel retains the complete source size; exact 50/50 split |
-| `design-only` | source-adaptive | one complete transformed illustration with no visible source photo; retains the source ratio and dimensions |
-| `wallpaper-pack` | four device sizes | separate phone, iPad, desktop, and watch PNGs |
+| Mode | Canvas rule | Result |
+| --- | --- | --- |
+| `top-bottom` | user-confirmed whole canvas | one complete generation: high-fidelity source above, 019 design below, approximately 50/50 |
+| `left-right` | user-confirmed whole canvas | one complete generation: high-fidelity source left, 019 design right, approximately 50/50 |
+| `design-only` | user-confirmed whole canvas | 019 design fills the canvas; source remains invisible |
+| `wallpaper-pack` | confirmed per device | separate phone, iPad, desktop, and children's-watch PNGs |
 
-Photography in paired modes remains truthful, with only restrained grading and necessary environmental extension. In design-only and wallpaper modes, the photograph supplies subject, relation, colour, and copy evidence but does not appear in the result.
+Paired modes use the source as a high-fidelity edit/reference input and one complete style prompt to generate the finished composition directly, so photography, design, colour, light, typography, and meaning can cohere. Deterministic composition is fallback-only: after one targeted complete-canvas retry fails, when pixel-identical source preservation is explicitly required, when the active route cannot realise the canvas, or for lossless final pixel calibration.
 
-### Wallpaper packs: one family, not one image
-
-Wallpaper-pack has no silent size default. Choose the common device preset—phone `1440×3200`, iPad `2048×2732`, desktop `3840×2160`, watch `1024×1024`—or provide labeled custom sizes.
-
-- **Linked pack (recommended):** generate and approve the iPad anchor first; the other three receive the original photo plus that same anchor and are recomposed for their own devices.
-- **Independent set:** every device receives only the source photograph and may explore more freely.
-
-A linked pack carries palette, graphic grammar, print character, and typographic rhythm across devices, while solving subject position, hierarchy, type, and safe areas anew. It never crops one master or chains references sequentially.
+Wallpapers may be linked or independent. A linked pack approves one iPad anchor, then recomposes every other device from the original plus that same anchor. An independent pack gives each device only the original. Neither crops another device output nor chains derivatives.
 
 ## Copy must belong to the image
 
@@ -100,17 +93,11 @@ target market or audience > requested output language > direction language; if n
 
 A Japanese edition uses natural Japanese and Japanese line-breaking rules; a Korean edition uses natural Korean and correct spacing; a UK edition uses British English; and an Arabic edition uses natural Modern Standard Arabic, correct shaping, and right-to-left composition. The skill never infers nationality from appearance and never uses pseudo-foreign text.
 
-## Scripts guarantee geometry; image generation creates the illustration
+## Complete-canvas first, raster-only delivery
 
-`scripts/compose_panel.py` handles planning, exact 50/50 raster composition, final dimensions, and auditing. It never substitutes SVG or programmatic colour blocks for real bitmap generation.
+The image model owns the aesthetics of the entire finished composition; paired layouts also default to one complete-canvas generation. `scripts/compose_panel.py` remains only for condition-based recovery, lossless pixel calibration, and read-only audit. It is not run pre-emptively and does not judge aesthetic success.
 
-```bash
-python3 scripts/compose_panel.py --plan --layout top-bottom --source photo.png
-python3 scripts/compose_panel.py --plan --layout left-right --size 2560x1440
-python3 scripts/compose_panel.py --audit result.png --layout design-only --size 2048x2048
-```
-
-Exact top-bottom canvases require an even total height; left-right canvases require an even total width. Odd dimensions are never silently changed.
+Every deliverable is a raster PNG and every invocation creates a fresh task under `~/Desktop/xxd/`. The configured image route exposes sanitised status only—never providers, endpoints, credentials, headers, prompts, responses, or account details. SVG, HTML, Canvas, diagrams, and programmatic drawing are not substitutes for the final artwork.
 
 ## Get started
 
