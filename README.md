@@ -16,17 +16,7 @@
 
 </div>
 
-> RECOGNISE FIRST · REDUCE WITH INTENT · COMPOSE WITH TYPE
-
-XXD Panel 019 是一个面向 Codex 与兼容 Agent 的图像生成 Skill。它把照片里的主体、姿态、方向、比例和不可拆分关系，转译成可辨认的复古现代主义平面插画；它不是把照片描摹成矢量，也不是用几何色块把内容抹掉。
-
-简化不是删除身份，而是找到最少但足够准确的证据。
-
 ## 样张 · 来自 X
-
-> [小小东（@xiaoxiaodong01）](https://x.com/xiaoxiaodong01/status/2090144142366233008) · 2026 年 8 月 19 日<br>
-> GPT2 × 复古 × 扁平 × 美学提示词 × VOL.019<br>
-> 推文同时演示：在提示词中注明“语言偏好：西班牙语”等目标语言，文字会跟随受众语言自然转创。
 
 <table>
   <tr>
@@ -39,9 +29,19 @@ XXD Panel 019 是一个面向 Codex 与兼容 Agent 的图像生成 Skill。它�
   </tr>
 </table>
 
+> [小小东（@xiaoxiaodong01）](https://x.com/xiaoxiaodong01/status/2090144142366233008) · 2026 年 8 月 19 日<br>
+> GPT2 × 复古 × 扁平 × 美学提示词 × VOL.019<br>
+> 推文同时演示：在提示词中注明“语言偏好：西班牙语”等目标语言，文字会跟随受众语言自然转创。
+
 <p align="center"><a href="https://x.com/xiaoxiaodong01/status/2090144142366233008">查看原推文与完整提示词 →</a></p>
 
 这些样张用于展示 019 的美学动机，不会把推文中的旧画幅写成当前 Skill 的默认尺寸；当前四种模式仍遵循下方的生成前明确画幅与自定义尺寸逻辑。
+
+> RECOGNISE FIRST · REDUCE WITH INTENT · COMPOSE WITH TYPE
+
+XXD Panel 019 是一个面向 Codex 与兼容 Agent 的图像生成 Skill。它把照片里的主体、姿态、方向、比例和不可拆分关系，转译成可辨认的复古现代主义平面插画；它不是把照片描摹成矢量，也不是用几何色块把内容抹掉。
+
+简化不是删除身份，而是找到最少但足够准确的证据。
 
 <!-- xxd-panel-benefit:start -->
 ## 快速判断：XXD Panel 019 适合你吗？

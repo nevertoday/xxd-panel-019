@@ -16,17 +16,7 @@
 
 </div>
 
-> RECOGNISE FIRST · REDUCE WITH INTENT · COMPOSE WITH TYPE
-
-XXD Panel 019 は、Codex と互換 Agent のための画像生成 Skill です。写真の被写体、姿勢、方向、比率、切り離せない関係を、判別可能なレトロモダニズムの平面イラストへ翻訳します。写真の自動トレースでも、一般的な幾何学で内容を消す仕組みでもありません。
-
-減らすべきなのはノイズであり、固有性ではありません。
-
 ## 作例 · X より
-
-> [Xiaoxiaodong（@xiaoxiaodong01）](https://x.com/xiaoxiaodong01/status/2090144142366233008) · 2026年8月19日<br>
-> GPT2 × レトロ × フラット × 美学プロンプト × VOL.019<br>
-> 投稿では「言語設定：スペイン語」のように対象言語を指定すると、その受け手に自然なコピーへトランスクリエーションされることも示しています。
 
 <table>
   <tr>
@@ -39,9 +29,19 @@ XXD Panel 019 は、Codex と互換 Agent のための画像生成 Skill です�
   </tr>
 </table>
 
+> [Xiaoxiaodong（@xiaoxiaodong01）](https://x.com/xiaoxiaodong01/status/2090144142366233008) · 2026年8月19日<br>
+> GPT2 × レトロ × フラット × 美学プロンプト × VOL.019<br>
+> 投稿では「言語設定：スペイン語」のように対象言語を指定すると、その受け手に自然なコピーへトランスクリエーションされることも示しています。
+
 <p align="center"><a href="https://x.com/xiaoxiaodong01/status/2090144142366233008">元の投稿と完全なプロンプトを見る →</a></p>
 
 これらは 019 の美学的動機を示す作例です。投稿当時の画面比率を現在の既定値にはしません。4つのモードは、以下の生成前に画角を明示するカスタムサイズ方針に従います。
+
+> RECOGNISE FIRST · REDUCE WITH INTENT · COMPOSE WITH TYPE
+
+XXD Panel 019 は、Codex と互換 Agent のための画像生成 Skill です。写真の被写体、姿勢、方向、比率、切り離せない関係を、判別可能なレトロモダニズムの平面イラストへ翻訳します。写真の自動トレースでも、一般的な幾何学で内容を消す仕組みでもありません。
+
+減らすべきなのはノイズであり、固有性ではありません。
 
 <!-- xxd-panel-benefit:start -->
 ## すぐに判断：XXD Panel 019 はあなたに合う？

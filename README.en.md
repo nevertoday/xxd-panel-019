@@ -16,17 +16,7 @@
 
 </div>
 
-> RECOGNISE FIRST · REDUCE WITH INTENT · COMPOSE WITH TYPE
-
-XXD Panel 019 is an image-generation skill for Codex and compatible agents. It translates subject, posture, direction, proportion, and inseparable relationships into recognisable retro-modernist flat illustration. It is neither vector tracing nor an excuse to erase the source under generic geometry.
-
-Reduction should remove noise, not identity.
-
 ## Samples · from X
-
-> [Xiaoxiaodong (@xiaoxiaodong01)](https://x.com/xiaoxiaodong01/status/2090144142366233008) · 19 August 2026<br>
-> GPT2 × retro × flat × aesthetic prompt × VOL.019<br>
-> The post also demonstrates language preference: naming a target such as Spanish lets the copy transcreate naturally for that audience.
 
 <table>
   <tr>
@@ -39,9 +29,19 @@ Reduction should remove noise, not identity.
   </tr>
 </table>
 
+> [Xiaoxiaodong (@xiaoxiaodong01)](https://x.com/xiaoxiaodong01/status/2090144142366233008) · 19 August 2026<br>
+> GPT2 × retro × flat × aesthetic prompt × VOL.019<br>
+> The post also demonstrates language preference: naming a target such as Spanish lets the copy transcreate naturally for that audience.
+
 <p align="center"><a href="https://x.com/xiaoxiaodong01/status/2090144142366233008">View the original post and full prompt →</a></p>
 
 These samples demonstrate the 019 aesthetic motive; they do not turn the post's earlier canvas into a current default. The four modes still follow the explicit pre-generation canvas and custom sizing logic below.
+
+> RECOGNISE FIRST · REDUCE WITH INTENT · COMPOSE WITH TYPE
+
+XXD Panel 019 is an image-generation skill for Codex and compatible agents. It translates subject, posture, direction, proportion, and inseparable relationships into recognisable retro-modernist flat illustration. It is neither vector tracing nor an excuse to erase the source under generic geometry.
+
+Reduction should remove noise, not identity.
 
 <!-- xxd-panel-benefit:start -->
 ## Quick fit check: is XXD Panel 019 right for you?
