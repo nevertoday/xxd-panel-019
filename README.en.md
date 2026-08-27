@@ -27,7 +27,12 @@
     <td width="50%"><a href="https://x.com/xiaoxiaodong01/status/2090144142366233008"><img src="./assets/examples/sample-03.jpg" alt="XXD Panel 019 sample 3"></a></td>
     <td width="50%"><a href="https://x.com/xiaoxiaodong01/status/2090144142366233008"><img src="./assets/examples/sample-04.jpg" alt="XXD Panel 019 sample 4"></a></td>
   </tr>
+  <tr>
+    <td colspan="2"><img src="./assets/examples/sample-05.png" alt="XXD Panel 019 Sample 5"></td>
+  </tr>
 </table>
+
+> New sample: one photo was randomly selected from the Chenxiang poster group and rendered with this Panel's original brief as a 16:9 left-right composition with original-brief-generated English copy.
 
 > [Xiaoxiaodong (@xiaoxiaodong01)](https://x.com/xiaoxiaodong01/status/2090144142366233008) · 19 August 2026<br>
 > GPT2 × retro × flat × aesthetic prompt × VOL.019<br>
