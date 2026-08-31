@@ -4,7 +4,7 @@
 
 <div align="center">
 
-# 🦁 XXD Panel 019
+# 🦁 XXD Panel 019｜Retro Graphic Journal
 
 ### Reconstruct a specific photographed subject and relationship as a modernist illustration that remains recognisable
 
