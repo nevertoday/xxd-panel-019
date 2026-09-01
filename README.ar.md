@@ -1,7 +1,3 @@
-<p align="center">
-  <img src="./assets/banner.svg" alt="لافتة مشروع XXD Panel 019" width="1200">
-</p>
-
 <div align="center" dir="rtl">
 
 # 🦁 XXD Panel 019｜دفتر الغرافيك الرجعي
@@ -321,7 +317,6 @@ xxd-panel-019/
 ├── SKILL.md
 ├── README.md / README.en.md / README.ja.md / README.ko.md / README.ar.md
 ├── agents/openai.yaml
-├── assets/banner.svg
 ├── scripts/
 │   ├── compose_panel.py
 │   └── configured_imagegen.py
