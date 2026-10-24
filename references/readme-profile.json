@@ -1,0 +1,114 @@
+{
+  "skill_description": "XXD Panel 019｜Retro Graphic Journal: reconstructs a specific photographed subject and relationship as a retro modernist flat illustration that stays recognisable: clear silhouettes, geometric colour blocks, hard-edged facets and simple curves that keep its key proportions, outline, action and structure, composed with scale contrast, layering, positive-negative shapes and bold cropping or offsets, in a three-to-five colour retro palette drawn from the photo with a warm old-print feel, and a modernist editorial type system in the user's language — a short title and two to four tiny groups of labels, numbers or notes, never a year — aligned to a strict grid. Outputs PNG top-bottom or left-right comparisons, design-only images, or phone/tablet/desktop/watch wallpapers, from one photo or a folder. Use when the user invokes xxd-panel-019 or asks for retro modernist poster illustration, mid-century flat graphic art or geometric silhouette posters from a photo.",
+  "short_description": "复古平面志：把照片主体重构成剪影、几何色块和 3–5 色限定色盘的复古现代主义插画",
+  "zh-CN": {
+    "name": "复古平面志",
+    "tagline": "把照片里的主体和关系，重构成仍然认得出来的复古现代主义平面插画。",
+    "look": "主体被概括成清晰剪影、几何色块、硬朗切面和简洁曲线，保留最关键的比例、轮廓、动作和结构，一眼能对应原物。构图讲究视觉重心、尺度反差、前后层级和正负形，可以大胆放大、裁切、偏置或叠压，只用少量辅助形体搭出空间。颜色从照片里取，整理成三到五色的复古限定色盘，带一点温暖的旧印刷气质。文字是现代主义编辑排版，跟随你的语言：一个短标题加两到四组极小的地点、编号、状态词或分类标签，不用年份，按严格网格与几何图形对齐、切割或穿插。",
+    "traits": [
+      "主体辨识",
+      "意图化简",
+      "现代主义",
+      "编辑文字",
+      "构成"
+    ],
+    "good": [
+      "造型鲜明的交通工具和建筑：老式汽车、火车头、灯塔、体育场",
+      "姿态有标志性的人或动物：冲浪的人、打网球的人、昂首的马",
+      "想做成复古海报、旅行海报或品牌插画的照片"
+    ],
+    "poor": [
+      "想要写实质感、细腻水彩或复杂纹理的需求",
+      "元素杂乱、没有明确主体的照片",
+      "需要像 UI 界面、素材图库那样精确矢量图的用途"
+    ]
+  },
+  "en": {
+    "name": "Retro Graphic Journal",
+    "tagline": "Rebuilds the subject and relationship in a photo as a retro modernist flat illustration that is still recognisable.",
+    "look": "The subject is reduced to clear silhouettes, geometric colour blocks, hard-edged facets and simple curves that keep its key proportions, outline, action and structure, so it answers the original at a glance. The composition is built on visual weight, contrast of scale, layering and positive-negative shapes, with bold enlarging, cropping, offsets or overlaps and only a few supporting shapes to suggest space. Colours from the photo are organised into a retro palette of three to five, with a warm old-print feel. Text is modernist editorial typography in your language: a short title plus two to four tiny groups of places, numbers, state words or category labels, never a year, aligned to a strict grid and cut, overlapped or woven with the shapes.",
+    "traits": [
+      "Recognisable subject",
+      "Purposeful simplification",
+      "Modernism",
+      "Editorial type",
+      "Composition"
+    ],
+    "good": [
+      "Vehicles and buildings with a strong shape: a vintage car, a locomotive, a lighthouse, a stadium",
+      "People or animals in an iconic pose: a surfer, a tennis player, a horse with its head up",
+      "Photos you want as a retro poster, travel poster or brand illustration"
+    ],
+    "poor": [
+      "Requests for realistic texture, delicate watercolour or complex surface detail",
+      "Cluttered photos with no clear subject",
+      "Uses that need precise vector graphics like a UI or stock asset"
+    ]
+  },
+  "ja": {
+    "name": "レトログラフィック手帳",
+    "tagline": "写真の主役と関係を、ちゃんと見分けのつくレトロなモダニズムの平面イラストに組み直します。",
+    "look": "主役ははっきりしたシルエット、幾何学的な色面、硬い切り面、シンプルな曲線にまとめ、いちばん大事な比率、輪郭、動き、構造を残すので、一目で元のものとわかります。構図は視覚的な重心、スケールの対比、前後の重なり、正負の形を軸にし、大胆に拡大、トリミング、片寄せ、重ねをして、空間は少数の補助的な形だけで示します。色は写真から取り、三〜五色のレトロな限定パレットに整え、温かい古い印刷物の趣を持たせます。文字はあなたの言語に合わせたモダニズムの編集的タイポグラフィで、短いタイトルに、ごく小さな地名、番号、状態語、分類ラベルを二〜四組添え、年号は使わず、厳密なグリッドに沿って図形とそろえたり、切ったり、交差させたりします。",
+    "traits": [
+      "主役がわかる",
+      "意図的な簡略化",
+      "モダニズム",
+      "編集的な文字",
+      "構成"
+    ],
+    "good": [
+      "形の際立つ乗り物や建物：クラシックカー、機関車、灯台、スタジアム",
+      "ポーズが象徴的な人や動物：サーファー、テニスをする人、首を上げた馬",
+      "レトロなポスター、旅行ポスター、ブランドのイラストにしたい写真"
+    ],
+    "poor": [
+      "写実的な質感、繊細な水彩、複雑なテクスチャを求める場合",
+      "要素が雑然として主役がはっきりしない写真",
+      "UI 画面や素材集のような正確なベクター画像が必要な用途"
+    ]
+  },
+  "ko": {
+    "name": "레트로 그래픽 저널",
+    "tagline": "사진 속 주인공과 관계를 여전히 알아볼 수 있는 레트로 모더니즘 평면 일러스트로 다시 짭니다.",
+    "look": "주인공은 또렷한 실루엣, 기하학적 색면, 단단한 절단면, 간결한 곡선으로 정리되며, 가장 중요한 비율, 윤곽, 동작, 구조를 남겨 한눈에 원래 대상과 이어집니다. 구도는 시각적 무게중심, 크기 대비, 앞뒤 층위, 양음 형태를 바탕으로 하고, 과감하게 키우고 자르고 치우치게 하거나 겹치며, 공간은 보조 형태 몇 개로만 만듭니다. 색은 사진에서 가져와 세 가지에서 다섯 가지의 레트로 한정 팔레트로 정리하고 따뜻한 옛 인쇄물의 느낌을 냅니다. 글자는 당신의 언어를 따르는 모더니즘 편집 타이포그래피로, 짧은 제목에 아주 작은 장소, 번호, 상태어, 분류 라벨을 두세 묶음에서 네 묶음 곁들이고 연도는 쓰지 않으며, 엄격한 격자에 맞춰 도형과 정렬하거나 자르거나 엇갈리게 놓습니다.",
+    "traits": [
+      "알아볼 수 있는 주인공",
+      "의도적 단순화",
+      "모더니즘",
+      "편집 글자",
+      "구성"
+    ],
+    "good": [
+      "형태가 뚜렷한 탈것과 건물: 클래식 자동차, 기관차, 등대, 경기장",
+      "상징적인 자세의 사람이나 동물: 서핑하는 사람, 테니스 치는 사람, 고개 든 말",
+      "레트로 포스터, 여행 포스터, 브랜드 일러스트로 쓰고 싶은 사진"
+    ],
+    "poor": [
+      "사실적인 질감, 섬세한 수채, 복잡한 텍스처를 원하는 경우",
+      "요소가 어수선하고 주인공이 분명하지 않은 사진",
+      "UI 화면이나 스톡 소스처럼 정밀한 벡터 그래픽이 필요한 용도"
+    ]
+  },
+  "ar": {
+    "name": "دفتر الغرافيك الرجعي",
+    "tagline": "يعيد بناء عنصر الصورة وعلاقاته في رسم مسطّح حداثي رجعي يبقى قابلاً للتعرّف.",
+    "look": "يُختزل العنصر في ظلال واضحة ومساحات لونية هندسية وأوجه حادة الحواف ومنحنيات بسيطة تحفظ أهم نِسبه وحدوده وحركته وبنيته، فيُعرف الأصل من النظرة الأولى. يقوم التكوين على مركز الثقل البصري وتباين الأحجام والطبقات والأشكال الموجبة والسالبة، مع تكبير أو قصّ أو إزاحة أو تراكب جريء، ولا يُلمَّح إلى المكان إلا بأشكال مساعدة قليلة. تُنظَّم ألوان الصورة في لوحة رجعية من ثلاثة إلى خمسة ألوان، بإحساس دافئ بالطباعة القديمة. النص طباعة تحريرية حداثية بلغتك: عنوان قصير ومعه من مجموعتين إلى أربع مجموعات صغيرة جداً من الأماكن أو الأرقام أو كلمات الحالة أو التصنيفات، بلا سنة، على شبكة صارمة تتقاطع مع الأشكال أو تتراكب معها أو تتداخل.",
+    "traits": [
+      "عنصر قابل للتعرّف",
+      "تبسيط مقصود",
+      "حداثة",
+      "نص تحريري",
+      "تكوين"
+    ],
+    "good": [
+      "وسائل نقل ومبانٍ بأشكال قوية: سيارة كلاسيكية، قاطرة، منارة، ملعب",
+      "أشخاص أو حيوانات بوضعية أيقونية: راكب أمواج، لاعب تنس، حصان رافع رأسه",
+      "صور تريدها ملصقاً رجعياً أو ملصق سفر أو رسماً لعلامة تجارية"
+    ],
+    "poor": [
+      "طلب ملمس واقعي أو ألوان مائية رقيقة أو تفاصيل سطحية معقدة",
+      "صور مبعثرة العناصر بلا عنصر واضح",
+      "استخدامات تحتاج إلى رسوم متجهية دقيقة كواجهات التطبيقات أو مكتبات الصور"
+    ]
+  }
+}
